@@ -1,0 +1,97 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top right, skyblue, royalblue, blue, mediumblue);
+    background-attachment: fixed;
+}
+
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: bold;
+    color: yellow;
+    text-shadow: 2px 2px 2px orange;
+    margin-left: 25px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#lamp{
+    margin-left: 40px;
+    margin-top: 15px;
+   
+}
+
+#bulb{
+    width: 170px;
+    height: 150px;
+    background-color: yellow;
+    border-radius: 1700px;
+    margin-top: 10px;
+    
+}
+
+#square{
+    width: 100px;
+    height: 70px;
+    background-color: yellow;
+    margin-top: -20px;
+    margin-left: 35px;
+    margin-bottom: -5px;
+}
+
+.bases{
+    margin-top: 5px;
+    margin-bottom: -5px;
+    margin-left: 40px;
+}
+
+.base1, .base2, .base3, .base4{
+    width: 85px;
+    height: 10px;
+    border: gray solid 2px;
+    background-color: darkgray;
+    border-radius: 5px;    
+}
+
+
+.base5{
+    width: 45px;
+    height: 15px;
+    background-color: #110110;
+    border-radius: 3px;
+    margin-left: 20px;    
+}
+
+.opacities{
+    opacity: 0.4;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+button{
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    margin-left: 40px;
+    padding: 10px;
+    
+}
+
